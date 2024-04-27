@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.coluna_slaca {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+}
+
+.coluna_de_opcoes {
+  list-style: none;
+  padding: 0;
+}
+
+.coluna_de_opcoes li {
+  padding: 0 24px;
+  color: #725C5C;
+  font-family: Quicksand;
+  font-size: 15px;
+  line-height: 18.75px;
+  font-weight: 500;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.border_trabalhos {
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, #FFB455, #ED7839) 1;
+}
