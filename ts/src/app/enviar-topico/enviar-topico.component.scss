@@ -1,0 +1,83 @@
+.answered-topic {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.duvida_ou_sugestao {
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.5px;
+  text-align: center;
+  padding: 10px ;
+}
+
+.ops-topic-subject {
+  display: flex;
+  flex-direction: column;
+}
+
+.ops-topic-subject span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #ED7839;
+}
+
+.ops-topic-subject input {
+  border: 1px solid #ccc;
+  padding: 10px 23px;
+}
+
+.ops-topic-subject input[type="text"]::placeholder {
+  font-family: Quicksand;
+  font-size: 14px;
+  line-height: 17.5px;
+  padding: 10px 23px;
+}
+
+.comments-container span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #ED7839;
+}
+.text_area_conteudo {
+  height: 86px;
+}
+
+.text_area_conteudo textarea{
+  resize: none;
+  width: 99.6%;
+  height: 82px;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.btn-create-topic {
+  width: 100%;
+  border: 1px solid #ccc;
+  text-align: end;
+}
+
+.btn-create-topic button {
+  color: #fff;
+  background: linear-gradient(to bottom, #FEB254, #F0813D);
+  border: none;
+  width: 205.1px;
+  height: 31px;
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+  transition: ease-out 3s;
+}
+
+.btn-create-topic button:hover {
+  background: linear-gradient(to bottom, #F0813D, #FEB254);
+  cursor: pointer;
+}
+

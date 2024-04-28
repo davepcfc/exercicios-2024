@@ -8,6 +8,8 @@ import { PrimeiraSessaoComponent } from './primeira-sessao/primeira-sessao.compo
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ResumoComponent } from './resumo/resumo.component';
 import { DiscussaoComponent } from './discussao/discussao.component';
+import { EnviarTopicoComponent } from './enviar-topico/enviar-topico.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { DiscussaoComponent } from './discussao/discussao.component';
     HeaderComponent,
     PrimeiraSessaoComponent,
     ResumoComponent,
-    DiscussaoComponent
+    DiscussaoComponent,
+    EnviarTopicoComponent
   ],
   imports: [
     BrowserModule,
