@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {faC, faCheckDouble} from '@fortawesome/free-solid-svg-icons'
-
+import { faCheckDouble} from '@fortawesome/free-solid-svg-icons'
+import { TrocarComponentesService } from '../trocar-componentes.service';
 @Component({
   selector: 'app-topico-enviado',
   templateUrl: './topico-enviado.component.html',
@@ -9,7 +9,11 @@ import {faC, faCheckDouble} from '@fortawesome/free-solid-svg-icons'
 export class TopicoEnviadoComponent implements OnInit {
   check=faCheckDouble;
 
-  constructor() { }
+  constructor(private trocarComponentesService: TrocarComponentesService){}
+
+  mostrarComponenteAnterior(): void {
+    this.trocarComponentesService.componenteAnterior();
+  }
 
   ngOnInit(): void {
   }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TrocarComponentesService } from '../trocar-componentes.service';
 
 @Component({
   selector: 'app-enviar-topico',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnviarTopicoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private trocarComponentesService: TrocarComponentesService){}
+
+  mostrarProximoComponente(): void {
+    this.trocarComponentesService.proximoComponente();
+  }
 
   ngOnInit(): void {
   }

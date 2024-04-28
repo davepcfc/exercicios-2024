@@ -7,8 +7,8 @@
     <div class="discussao_titulo">
       <span>Discussões</span>
     </div>
-    <!-- <app-discussao></app-discussao> -->
-    <!-- <app-enviar-topico></app-enviar-topico> -->
-    <app-topico-enviado></app-topico-enviado>
+    <app-discussao *ngIf="componenteAtual === 1"></app-discussao>
+    <app-enviar-topico *ngIf=" componenteAtual === 2"></app-enviar-topico>
+    <app-topico-enviado *ngIf=" componenteAtual === 3"></app-topico-enviado>
   </div>
 </div>
