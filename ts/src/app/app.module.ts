@@ -10,6 +10,7 @@ import { ResumoComponent } from './resumo/resumo.component';
 import { DiscussaoComponent } from './discussao/discussao.component';
 import { EnviarTopicoComponent } from './enviar-topico/enviar-topico.component';
 import { TopicoEnviadoComponent } from './topico-enviado/topico-enviado.component';
+import { AssuntosComponent } from './assuntos/assuntos.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { TopicoEnviadoComponent } from './topico-enviado/topico-enviado.componen
     ResumoComponent,
     DiscussaoComponent,
     EnviarTopicoComponent,
-    TopicoEnviadoComponent
+    TopicoEnviadoComponent,
+    AssuntosComponent
   ],
   imports: [
     BrowserModule,

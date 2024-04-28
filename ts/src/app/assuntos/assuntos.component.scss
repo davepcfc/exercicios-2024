@@ -1,0 +1,63 @@
+.assuntos_container {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.primeiro_assunto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  padding: 17px 24px;
+  margin-left: 5em;
+}
+
+.titulo_assunto {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ED7839;
+}
+
+.nome_usuario {
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5c5c5c;
+  margin-top: 3px;
+}
+
+.inicio_pergunta {
+font-family: Quicksand;
+font-weight: 400;
+font-size: 14px;
+line-height: 17.5px;
+color: #4d4d4d;
+margin: 10px 0;
+}
+
+.simbolos_e_like{
+  display: flex;
+  align-items: center;
+}
+
+.simbolos_e_like img {
+  margin-right: 15px;
+}
+
+.like {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 18.62px;
+  color: #757575;margin-right: 15px;
+}
+
+.resposta {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 18.62px;
+  color: #757575;
+}
