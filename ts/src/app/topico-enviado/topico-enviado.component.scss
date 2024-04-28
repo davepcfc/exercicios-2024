@@ -1,0 +1,94 @@
+.topico_enviado_container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.topico_enviado {
+ display: flex;
+ flex-direction: column;
+}
+
+.enviado_com_sucesso {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: center;
+  color: #ED7839;
+  margin-bottom: 18px;
+}
+
+.agradecer_contribuicao {
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.25px;
+  text-align: center;
+  color: #595959;
+  margin-bottom: 29px;
+}
+
+.descobrir_trabalhos{
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.25px;
+  text-align: center;
+  color: #F48F44;
+  text-decoration: underline;
+  margin-bottom: 47px;
+}
+
+.botao_enviar {
+  text-align: center;
+  margin-bottom: 49px;
+}
+
+.botao_enviar button {
+  color: #fff;
+  background: linear-gradient(to bottom, #FEB254, #F0813D);
+  border: none;
+  width: 205.1px;
+  height: 31px;
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+  transition: ease-out 3s;
+}
+
+.botao_enviar button:hover {
+  background: linear-gradient(to bottom, #F0813D, #FEB254);
+  cursor: pointer;
+}
+
+.aguardando_feedback {
+  text-align: center;
+}
+
+.icon_check {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #707070;
+  margin-bottom: 7.78px;
+}
+
+.aguardando_feedback {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #707070;
+  margin-bottom: 8px;
+}
+
+.editar_topico {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.62px;
+  color: #ED7839;
+  text-decoration: underline;
+}

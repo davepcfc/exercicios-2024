@@ -9,6 +9,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ResumoComponent } from './resumo/resumo.component';
 import { DiscussaoComponent } from './discussao/discussao.component';
 import { EnviarTopicoComponent } from './enviar-topico/enviar-topico.component';
+import { TopicoEnviadoComponent } from './topico-enviado/topico-enviado.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { EnviarTopicoComponent } from './enviar-topico/enviar-topico.component';
     PrimeiraSessaoComponent,
     ResumoComponent,
     DiscussaoComponent,
-    EnviarTopicoComponent
+    EnviarTopicoComponent,
+    TopicoEnviadoComponent
   ],
   imports: [
     BrowserModule,
