@@ -1,0 +1,56 @@
+<div class="resumo_container">
+  <h2>Resumo</h2>
+  <div class="paragrafos_container">
+    <p class="paragrafo_lorem">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus,
+      vitae, illum laboriosam fugit tempora, a hic magnam provident quia
+      dignissimos sapiente. Repellendus similique eligendi officia esse voluptas
+      eum alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Veniam nulla ea perspiciatis error quos fugiat harum, dolores vero placeat
+      minima optio maiores dignissimos reiciendis iusto repudiandae, sit sunt
+      quae corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quod voluptates cumque nesciunt veniam iusto. Numquam, alias. Dicta
+      exercitationem quibusdam itaque corporis? Dolorem natus dolores provident
+      quibusdam vel quam iusto obcaecati.<button *ngIf="!verMais" (click)="!verMais = true" class="btn-show-more">
+        {{ verMais ? "Ver Menos" : "Ver Mais" }}
+      </button>
+
+    <p class="paragrafo_lorem" *ngIf="verMais">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus,
+      vitae, illum laboriosam fugit tempora, a hic magnam provident quia
+      dignissimos sapiente. Repellendus similique eligendi officia esse voluptas
+      eum alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Veniam nulla ea perspiciatis error quos fugiat harum, dolores vero placeat
+      minima optio maiores dignissimos reiciendis iusto repudiandae, sit sunt
+      quae corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quod voluptates cumque nesciunt veniam iusto. Numquam, alias. Dicta
+      exercitationem quibusdam itaque corporis? Dolorem natus dolores provident
+      quibusdam vel quam iusto obcaecati.
+    </p>
+    <p class="paragrafo_lorem" *ngIf="verMais">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus,
+      vitae, illum laboriosam fugit tempora, a hic magnam provident quia
+      dignissimos sapiente. Repellendus similique eligendi officia esse voluptas
+      eum alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Veniam nulla ea perspiciatis error quos fugiat harum, dolores vero placeat
+      minima optio maiores dignissimos reiciendis iusto repudiandae, sit sunt
+      quae corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quod voluptates cumque nesciunt veniam iusto. Numquam, alias. Dicta
+      exercitationem quibusdam itaque corporis? Dolorem natus dolores provident
+      quibusdam vel quam iusto obcaecati.
+    </p>
+    <p class="paragrafo_lorem" *ngIf="verMais">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum delectus,
+      vitae, illum laboriosam fugit tempora, a hic magnam provident quia
+      dignissimos sapiente. Repellendus similique eligendi officia esse voluptas
+      eum alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      Veniam nulla ea perspiciatis error quos fugiat harum, dolores vero placeat
+      minima optio maiores dignissimos reiciendis iusto repudiandae, sit sunt
+      quae corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quod voluptates cumque nesciunt veniam iusto. Numquam, alias. Dicta
+      exercitationem quibusdam itaque corporis? Dolorem natus dolores provident
+      quibusdam vel quam iusto obcaecati.<button (click)="verMais = false" class="btn-show-more">
+        {{ verMais ? "Ver Menos" : "Ver Mais" }}
+      </button></p>
+  </div>
+</div>
