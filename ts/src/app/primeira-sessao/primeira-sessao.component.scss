@@ -1,0 +1,133 @@
+.primeira_sessao_conteiner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.titulo_e_video_apresentacao {
+  width: 784px;
+}
+
+.titulo_e_video_apresentacao h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ED7839;
+}
+
+.download{
+  color: #fff;
+  padding: 6px 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #ED7839;
+}
+
+.salvar {
+  background-color: #ED7839;
+  color: #fff;
+  padding: 7.5px 12px;
+  border-radius: 4px;
+}
+
+.doi_logo {
+  background-color: #ED7839;
+  color: #fff;
+  padding: 7.5px 12px;
+  border-radius: 4px;
+}
+
+.icone_doi {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 50%;
+  font-weight: 700;
+  background-color: #fff;
+  color: #ED7839;
+}
+
+.como_citar {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: end;
+  color: #ED7839;
+  margin-top: 12px;
+}
+
+.coluna_detalhes_container {
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+  height: 526px;
+}
+
+.coluna_detalhes_icones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coluna_detalhes h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #4e4e4e;
+  line-height: 25px;
+}
+
+.primeira_especificacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.primeira_especificacao span{
+  font-family: Quicksand;
+  color: #5c5c5c;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.strong_font {
+  font-weight: 700;
+}
+
+.segunda_especificacao{
+  display: flex;
+  flex-direction: column;
+  font-family: Quicksand;
+  margin-top: 12px;
+}
+
+.segunda_especificacao h2 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+.segunda_especificacao span {
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #5c5c5c;
+}
+
+.terceira_especificacao {
+  display: flex;
+  flex-direction: column;
+  font-family: Quicksand;
+  margin-top: 25px;
+}
+
+.terceira_especificacao span {
+  color: #5c5c5c;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.especificacoes {
+  border-right: 3px solid #bfbfbf;
+  height: 200px;
+}
