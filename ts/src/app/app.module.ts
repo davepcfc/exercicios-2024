@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { PrimeiraSessaoComponent } from './primeira-sessao/primeira-sessao.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ResumoComponent } from './resumo/resumo.component';
+import { DiscussaoComponent } from './discussao/discussao.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ResumoComponent } from './resumo/resumo.component';
     ColunaSlaca2019Component,
     HeaderComponent,
     PrimeiraSessaoComponent,
-    ResumoComponent
+    ResumoComponent,
+    DiscussaoComponent
   ],
   imports: [
     BrowserModule,
