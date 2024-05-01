@@ -1,6 +1,8 @@
 <?php
 
 namespace Chuva\Php\WebScrapping;
+use Box\Spout\Common\Entity\Row;
+use Box\Spout\Writer\Common\Creator\WriterEntityFactory;
 
 /**
  * Runner for the Webscrapping exercice.
@@ -16,8 +18,28 @@ class Main {
 
     $data = (new Scrapper())->scrap($dom);
 
-    // Write your logic to save the output file bellow.
-    print_r($data);
+    //criar planilha
+    $writer = WriterEntityFactory::createXLSXWriter();
+    $writer->openToFile('output.xlsx');
+
+    //cabecalho
+    $headerRow = WriterEntityFactory::createRowFromArray(['ID', 'Título', 'Tipo', 'Autores']);
+    $writer->addRow($headerRow);
+
+    //escrever dados
+    foreach ($data as $paper) {
+      $authorNames = array_column($paper['authors'],'name');
+      $authorString = implode(', ', $authorNames);
+
+      $row = WriterEntityFactory::createRowFromArray([
+        $paper['id'],
+        $paper['title'],
+        $paper['type'],
+        $authorString
+      ]);
+      $writer->addRow($row);
+    }
+    $writer->close();
   }
 
 }
